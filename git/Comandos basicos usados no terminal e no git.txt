@@ -1,0 +1,23 @@
+Comandos basicos usados em terminal
+cd (serve pra mexer nas pastas) Ex:cd F:\Users\Gamer\Documents\Faculdade\ass\Python
+dir e ls (serve pra ver uma lista do que tem na pasta)
+cd.. (serve pra voltar uma pasta)
+
+branch
+comitar (fazer alterações em um sistema e envia-las pro git)
+
+git status (vai varrer a pasta e vai ver oq foi modificado)
+git add (faz um arquivo começar a ser monitorado pelo git) Ex: git add README.md ou git.add -A (para monitorar todas que nao estão monitoradas)
+git commit -m "comentario" (para fazer um commit) git commit -am ""(faz a adição e o commit junto)
+git log (mostra a lista de todos os commits naquele branch)
+git branch (mostra quantos branchs tem)
+git reset --soft *codigo*(remover modificações) (mais recomendado) (soft: volta a um estado antes do commit ou seja esta adicionado mas nao commitado)
+git reset --mixed *codigo*(remover modificações) (mixed: tira o commit e o add mas vc ainda tem o codigo)
+git reset --hard *codigo*(remover modificações) (hard: exclui o novo codigo e volta ao commit anterior) ex:git reset -hard 326a2197fdfb7700270ca84260ca5eb3158c6c86 (pode ser tb so os 7 primeiros numeros)
+git branch *nome* (para criar um branch apartir de uma copia do branch que vc esta)
+git checkout *nome* (trocar de branch) (cada branch tem seu log e suas modificações)
+git diff (ve oq foi modificado em cada arquivo)
+git diff --name-only (somente o nome dos arquivos que foram modificados)
+git checkout HEAD -- *nome arquivo* (desfaz as alterações que nao foram commitadas)
+git push -u origin *branch* (como mandar um branch para o github) ex: git push -u origin main
+git push origin *branch* (Atualizando o github) git push origin main
