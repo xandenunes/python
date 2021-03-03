@@ -22,4 +22,4 @@ git checkout HEAD -- *nome arquivo* (desfaz as alterações que nao foram commit
 git push -u origin *branch* (como mandar um branch para o github) ex: git push -u origin main
 git push origin *branch* (Atualizando o github) git push origin main
 cria um arquivo (.gitignore) e coloca no nome do arquivo/paste que vc quer ignorar (como ignorar determinados arquivos)
-aa
+git revert --no-edit *codigo* (ele da o commit ao contrario mantendo o acesso que vc tem ao commit que deu errado)
