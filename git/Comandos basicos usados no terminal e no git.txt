@@ -23,3 +23,8 @@ git push -u origin *branch* (como mandar um branch para o github) ex: git push -
 git push origin *branch* (Atualizando o github) git push origin main
 cria um arquivo (.gitignore) e coloca no nome do arquivo/paste que vc quer ignorar (como ignorar determinados arquivos)
 git revert --no-edit *codigo* (ele da o commit ao contrario mantendo o acesso que vc tem ao commit que deu errado)
+git push origin :*branch* (deleta branch remoto)Ex: git push origin :teste
+git branch -D *branch* (deleta o branch local)Ex: git branch -D teste
+git pull origin main (pega do repositoria remoto e atualiza o local)
+git clone *link* (clonar o repositorio remoto)
+git remote -v (para ver o nome do repositorio remoto)
