@@ -1,7 +1,7 @@
 import math
-a=int(input("insira a contante A "))
-b=int(input("insira a contante B "))
-c=int(input("insira a contante C "))
+a=int(input("insira a constante A "))
+b=int(input("insira a constante B "))
+c=int(input("insira a constante C "))
 delta=b**2-4*a*c
 if delta>0:
   raiz1=(-b + math.sqrt(delta))/(2*a)
