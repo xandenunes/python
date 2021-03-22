@@ -6,9 +6,15 @@ cd.. (serve pra voltar uma pasta)
 branch
 comitar (fazer alterações em um sistema e envia-las pro git)
 
+git init (iniciar o git nessa pasta)
 git status (vai varrer a pasta e vai ver oq foi modificado)
 git add (faz um arquivo começar a ser monitorado pelo git) Ex: git add README.md ou git.add -A (para monitorar todas que nao estão monitoradas)
 git commit -m "comentario" (para fazer um commit) git commit -am ""(faz a adição e o commit junto)
+
+git remote add origin *endereço do repositorio*.git (conectando os repositorios)
+git branch -M main
+git push -u origin main
+
 git log (mostra a lista de todos os commits naquele branch)
 git branch (mostra quantos branchs tem)
 git reset --soft *codigo*(remover modificações) (mais recomendado) (soft: volta a um estado antes do commit ou seja esta adicionado mas nao commitado)
